@@ -22,10 +22,16 @@ consumer_secret = "s1Zd57mi9OKoA09OWKfaJcahYrcRtxggBpJONfSP2VC9E4FbV6"
 
 
 class StdOutListener(StreamListener):
+    def __init__(self, lim = 20):
+        self.num_tweets = 0
+        self.lim = lim
 
     def on_data(self, data):
-        print data
-        return True
+        while self.num_tweets < self.lim:
+            print data
+            self.num_tweets += 1
+            return True
+        return False
 
     def on_error(self, status):
         print status
@@ -37,7 +43,7 @@ auth.set_access_token(access_token, access_token_secret)
 if __name__ == '__main__':
 
     #This handles Twitter authetification and the connection to Twitter Streaming API
-    l = StdOutListener()
+    l = StdOutListener(2000)
     print "ok"
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
