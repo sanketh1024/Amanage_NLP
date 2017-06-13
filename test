@@ -1,0 +1,1388 @@
+ccopy_reg
+_reconstructor
+p0
+(cpandas.core.frame
+DataFrame
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'_metadata'
+p6
+(lp7
+sS'_typ'
+p8
+S'dataframe'
+p9
+sS'_data'
+p10
+g0
+(cpandas.core.internals
+BlockManager
+p11
+g2
+Ntp12
+Rp13
+((lp14
+cpandas.indexes.base
+_new_Index
+p15
+(cpandas.indexes.base
+Index
+p16
+(dp17
+S'data'
+p18
+cnumpy.core.multiarray
+_reconstruct
+p19
+(cnumpy
+ndarray
+p20
+(I0
+tp21
+S'b'
+p22
+tp23
+Rp24
+(I1
+(I8
+tp25
+cnumpy
+dtype
+p26
+(S'O8'
+p27
+I0
+I1
+tp28
+Rp29
+(I3
+S'|'
+p30
+NNNI-1
+I-1
+I63
+tp31
+bI00
+(lp32
+S'Text'
+p33
+aS'Lang'
+p34
+aS'Country_code'
+p35
+aS'Timestamp'
+p36
+aS'favorite_count'
+p37
+aS'favorited'
+p38
+aS'retweet_count'
+p39
+aS'retweeted'
+p40
+atp41
+bsS'name'
+p42
+Nstp43
+Rp44
+ag15
+(cpandas.indexes.numeric
+Int64Index
+p45
+(dp46
+g18
+g19
+(g20
+(I0
+tp47
+g22
+tp48
+Rp49
+(I1
+(I180
+tp50
+g26
+(S'i8'
+p51
+I0
+I1
+tp52
+Rp53
+(I3
+S'<'
+p54
+NNNI-1
+I-1
+I0
+tp55
+bI00
+S'\x01\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00*\x00\x00\x00\x00\x00\x00\x00.\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x00\x00\x00\x003\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x00\x00\x00\x005\x00\x00\x00\x00\x00\x00\x006\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x00\x00\x00\x008\x00\x00\x00\x00\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00;\x00\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x00\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x00\x00\x00\x00C\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00G\x00\x00\x00\x00\x00\x00\x00H\x00\x00\x00\x00\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x00\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x00\x00\x00\x00Q\x00\x00\x00\x00\x00\x00\x00R\x00\x00\x00\x00\x00\x00\x00T\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x00\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00W\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x00\x00\x00\x00Y\x00\x00\x00\x00\x00\x00\x00Z\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x00\x00\x00\x00]\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x00\x00\x00\x00_\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00a\x00\x00\x00\x00\x00\x00\x00b\x00\x00\x00\x00\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00e\x00\x00\x00\x00\x00\x00\x00f\x00\x00\x00\x00\x00\x00\x00g\x00\x00\x00\x00\x00\x00\x00h\x00\x00\x00\x00\x00\x00\x00i\x00\x00\x00\x00\x00\x00\x00j\x00\x00\x00\x00\x00\x00\x00k\x00\x00\x00\x00\x00\x00\x00l\x00\x00\x00\x00\x00\x00\x00m\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x00\x00\x00\x00o\x00\x00\x00\x00\x00\x00\x00p\x00\x00\x00\x00\x00\x00\x00q\x00\x00\x00\x00\x00\x00\x00r\x00\x00\x00\x00\x00\x00\x00s\x00\x00\x00\x00\x00\x00\x00t\x00\x00\x00\x00\x00\x00\x00u\x00\x00\x00\x00\x00\x00\x00v\x00\x00\x00\x00\x00\x00\x00w\x00\x00\x00\x00\x00\x00\x00x\x00\x00\x00\x00\x00\x00\x00y\x00\x00\x00\x00\x00\x00\x00z\x00\x00\x00\x00\x00\x00\x00{\x00\x00\x00\x00\x00\x00\x00|\x00\x00\x00\x00\x00\x00\x00}\x00\x00\x00\x00\x00\x00\x00~\x00\x00\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x00\x00\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x82\x00\x00\x00\x00\x00\x00\x00\x83\x00\x00\x00\x00\x00\x00\x00\x84\x00\x00\x00\x00\x00\x00\x00\x85\x00\x00\x00\x00\x00\x00\x00\x86\x00\x00\x00\x00\x00\x00\x00\x87\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x00\x00\x00\x00\x8a\x00\x00\x00\x00\x00\x00\x00\x8b\x00\x00\x00\x00\x00\x00\x00\x8c\x00\x00\x00\x00\x00\x00\x00\x8d\x00\x00\x00\x00\x00\x00\x00\x8e\x00\x00\x00\x00\x00\x00\x00\x8f\x00\x00\x00\x00\x00\x00\x00\x90\x00\x00\x00\x00\x00\x00\x00\x91\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x00\x00\x00\x00\x93\x00\x00\x00\x00\x00\x00\x00\x94\x00\x00\x00\x00\x00\x00\x00\x95\x00\x00\x00\x00\x00\x00\x00\x96\x00\x00\x00\x00\x00\x00\x00\x97\x00\x00\x00\x00\x00\x00\x00\x98\x00\x00\x00\x00\x00\x00\x00\x99\x00\x00\x00\x00\x00\x00\x00\x9a\x00\x00\x00\x00\x00\x00\x00\x9b\x00\x00\x00\x00\x00\x00\x00\x9c\x00\x00\x00\x00\x00\x00\x00\x9d\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x00\x00\x00\x00\x9f\x00\x00\x00\x00\x00\x00\x00\xa0\x00\x00\x00\x00\x00\x00\x00\xa1\x00\x00\x00\x00\x00\x00\x00\xa2\x00\x00\x00\x00\x00\x00\x00\xa3\x00\x00\x00\x00\x00\x00\x00\xa4\x00\x00\x00\x00\x00\x00\x00\xa5\x00\x00\x00\x00\x00\x00\x00\xa6\x00\x00\x00\x00\x00\x00\x00\xa7\x00\x00\x00\x00\x00\x00\x00\xa8\x00\x00\x00\x00\x00\x00\x00\xa9\x00\x00\x00\x00\x00\x00\x00\xaa\x00\x00\x00\x00\x00\x00\x00\xab\x00\x00\x00\x00\x00\x00\x00\xac\x00\x00\x00\x00\x00\x00\x00\xad\x00\x00\x00\x00\x00\x00\x00\xae\x00\x00\x00\x00\x00\x00\x00\xaf\x00\x00\x00\x00\x00\x00\x00\xb0\x00\x00\x00\x00\x00\x00\x00\xb1\x00\x00\x00\x00\x00\x00\x00\xb2\x00\x00\x00\x00\x00\x00\x00\xb3\x00\x00\x00\x00\x00\x00\x00\xb4\x00\x00\x00\x00\x00\x00\x00\xb5\x00\x00\x00\x00\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x00\x00\xb7\x00\x00\x00\x00\x00\x00\x00\xb8\x00\x00\x00\x00\x00\x00\x00\xb9\x00\x00\x00\x00\x00\x00\x00\xba\x00\x00\x00\x00\x00\x00\x00\xbb\x00\x00\x00\x00\x00\x00\x00\xbc\x00\x00\x00\x00\x00\x00\x00\xbd\x00\x00\x00\x00\x00\x00\x00\xbe\x00\x00\x00\x00\x00\x00\x00\xbf\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00\x00\x00\x00\xc1\x00\x00\x00\x00\x00\x00\x00\xc2\x00\x00\x00\x00\x00\x00\x00\xc3\x00\x00\x00\x00\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x00\x00\xc5\x00\x00\x00\x00\x00\x00\x00\xc7\x00\x00\x00\x00\x00\x00\x00'
+p56
+tp57
+bsg42
+Nstp58
+Rp59
+a(lp60
+g19
+(g20
+(I0
+tp61
+g22
+tp62
+Rp63
+(I1
+(I2
+I180
+tp64
+g26
+(S'b1'
+p65
+I0
+I1
+tp66
+Rp67
+(I3
+S'|'
+p68
+NNNI-1
+I-1
+I0
+tp69
+bI00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+p70
+tp71
+bag19
+(g20
+(I0
+tp72
+g22
+tp73
+Rp74
+(I1
+(I2
+I180
+tp75
+g53
+I00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+p76
+tp77
+bag19
+(g20
+(I0
+tp78
+g22
+tp79
+Rp80
+(I1
+(I4
+I180
+tp81
+g29
+I00
+(lp82
+VRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p83
+aVDeutsche Bank's wealth management arm to hire 100 client managers https://t.co/tueTkbWXHD https://t.co/5CYTVInJPV
+p84
+aVRT @Schuldensuehner: Deutsche Bank is suffering from the German Bund rallye. Share price trades in lockstep w/ 10y yields. https://t.co/8dS\u2026
+p85
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p86
+aVDeutsche Bank reaches $170 million Euribor-rigging settlement https://t.co/AROvaXVPNN https://t.co/nJoxaiYXp3
+p87
+aV@maddow Preet Bharara was fired by Trump  because he found out  he was prosecuting Deutsche Bank.
+p88
+aVRT @zerohedge: Deutsche Bank: "austerity and debt reduction are both looking increasingly like political suicide."
+p89
+aVDeutsche Bank Has A Few Questions About GE's Suprise CEO Announcement https://t.co/qo638eD0b4 #benzinga https://t.co/a0Pr2UQ6uJ
+p90
+aVRT @TrickFreee: Holy shit.  And it's traded in rubles with Kiwi. Kiwi transactions are accepted by Deutsche Bank. https://t.co/4E4XPnWtla
+p91
+aVRT @nadeemmalik: @b_obermayer @f_obermaier @DeutscheBank @lukeharding1968 @JesseDrucker Do you thing Deutsche Bank would provide the\u2026 
+p92
+aVDEUTSCHE BANK ON PETRONET LNG\u000aPetronet LNG top pick in the sector; target of \u20b9550/sh\u000a~27% UPSIDE
+p93
+aVAll of the congressmen whoRdragging their feet on the subj,are obstructing. MustBheld accountable. &amp; Rcomplicit https://t.co/41BHHFjXA9
+p94
+aVRT @johncusack: And mueller knows this- https://t.co/eQNACjK9zp
+p95
+aVRT @DenbrotS: Deutsche Bank Withholds Evidence Of Collusion Between Trump And Russians\u000aIt's a piece of the puzzle. Republicans re\u2026 
+p96
+aVRT @johncusack: And mueller knows this- https://t.co/eQNACjK9zp
+p97
+aVRT @DenbrotS: Deutsche Bank Withholds Evidence Of Collusion Between Trump And Russians\u000aIt's a piece of the puzzle. Republicans re\u2026 
+p98
+aVDeutsche Bank reaches US$170m Euribor-rigging settlement https://t.co/VAWOM4MJ9y #breakingnews https://t.co/W8aJ5sZqYw
+p99
+aVRT @hekasia: this is what it's all about https://t.co/OZjtq0xqan
+p100
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p101
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p102
+aVRT @johncusack: And mueller knows this- https://t.co/eQNACjK9zp
+p103
+aVDeutsche bank stonewalls Dems on Trump loans and Russia https://t.co/4RZPRzzOjm via @HuffPostPol
+p104
+aVRT @DenbrotS: Deutsche Bank Withholds Evidence Of Collusion Between Trump And Russians\u000aIt's a piece of the puzzle. Republicans re\u2026 
+p105
+aVRT @hekasia: this is what it's all about https://t.co/OZjtq0xqan
+p106
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p107
+aVDeutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p108
+aVRT @reenie527: Deutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p109
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p110
+aVRT @reenie527: Deutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p111
+aVAlso new today: Deutsche Bank agrees to $170M settlement in Euribord investor suit: https://t.co/9DPztasMIe
+p112
+aVRT @reenie527: Deutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p113
+aVRT @MarketWatch: The stock market's next 5% move is \u201cmore likely down than up,\u201d says Deutsche Bank: https://t.co/L04OVBcPsJ
+p114
+aVRT @nadeemmalik: @b_obermayer @f_obermaier @DeutscheBank @lukeharding1968 @JesseDrucker Do you thing Deutsche Bank would provide the\u2026 
+p115
+aVDeutsche Bank reaches $170 million Euribor-rigging settlement - https://t.co/6rZEqeQU50
+p116
+aVU.S. recession remote in next 12 months: Deutsche Bank: U.S. recession remote in next 12\u2026 https://t.co/aEI8dwMRoc
+p117
+aV@ddrm2017 @Sf_foodtrucker @dennism00re @JohnnyMcNulty @realDonaldTrump @Cabinet Lmao!\U0001f602 U mean the 4 Goldman Sachs E\u2026 https://t.co/7TRzZXIqDz
+p118
+aVRT @zerohedge: Deutsche Bank: "austerity and debt reduction are both looking increasingly like political suicide."
+p119
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p120
+aV@ChrisJZullo Let's not forget Trump Fired all of DOJ Attorneys to cover up Russian ties, Money Laundering &amp; protect\u2026 https://t.co/lVQvN0j5wj
+p121
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p122
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p123
+aVAll extremely successful individuals who took no salary to help our country after screwups hired by Obama. https://t.co/PGuJYmBjeX
+p124
+aVDeutsche Bank To Pay $170M To Settle Euribor Investor Suit https://t.co/hBYE471ygi
+p125
+aVBank that lent $300m to Trump linked to Russian money laundering scam https://t.co/2UAvhqvABY
+p126
+aVNone of them are under criminal investigations, get your facts straight instead of using Maxine Waters talking poin\u2026 https://t.co/4QSF62heKH
+p127
+aVCan u say traitors? We sure the f*ck can. @realDonaldTrump @IvankaTrump @EricTrump @trump @DonaldJTrumpJr  @VP @gop https://t.co/A8SgTdPqJi
+p128
+aVRT @sonamcnbcawaaz: DEUTSCHE BANK ON PETRONET LNG\u000aPetronet LNG top pick in the sector; target of \u20b9550/sh\u000a~27% UPSIDE
+p129
+aVWe should have a Sec State that says a toaster is more dangerous than Isis.   He was a real smart one appointed by\u2026 https://t.co/pwRznunCxb
+p130
+aVDeutsche Bank refuses to release info on Trump loans amid DOJ probe https://t.co/lhNvDEADwC https://t.co/W8KLEimiHB
+p131
+aVRT @zerohedge: Deutsche Bank: "austerity and debt reduction are both looking increasingly like political suicide."
+p132
+aVDeutsche Bank on Petronet LNG\u000aPetronet is the top pick in the sector ~ target of Rs 550 @CNBC_Awaaz
+p133
+aVRT @zerohedge: Deutsche Bank: "austerity and debt reduction are both looking increasingly like political suicide."
+p134
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p135
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p136
+aVRT @janasanchez: He's not just a problem for Democracy.  https://t.co/r7WTkot3Mr
+p137
+aVRT @reenie527: Deutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p138
+aVRT @reenie527: Deutsche bank stonewalls Dems on Trump loans and Russia https://t.co/bBOv8zmXou via @HuffPostPol
+p139
+aVBig switch (report from Deutsche Bank): Distributed energy to overtake centralised power by 2018 https://t.co/1oUsRo4CbQ via @renew_economy
+p140
+aVRT @hekasia: this is what it's all about https://t.co/OZjtq0xqan
+p141
+aVGlobal Markets \u2013 Equity Research Associate: Deutsche Bank Location : HK Job ID: 3152800 Full/Part-Time: Full-time... https://t.co/aEaS1na6vv
+p142
+aV@Rock_Rogers Shut down Douche Bank. Shut down Wells Fargo. After that check back with me for more. https://t.co/2TfcqYFSKw
+p143
+aVU.S. recession remote in next 12 months: Deutsche Bank - https://t.co/bHtSu6r5At
+p144
+aVRT @hekasia: this is what it's all about https://t.co/OZjtq0xqan
+p145
+aVRT @zerohedge: Deutsche Bank: "austerity and debt reduction are both looking increasingly like political suicide."
+p146
+aV#DeutscheBank agrees $170m settlement in #Euribor lawsuit\u000a\u000ahttps://t.co/m5T2CtSdqu
+p147
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p148
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p149
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p150
+aVRT @DenbrotS: How about a protest march on Deutsche Bank?\u000aThey wouldn't like 10,000 people at their door.\u000aRetweet if you want to\u2026 
+p151
+aVRT @WesSmith123: Deutsche Bank washes Russian money, Trump owes them $100's of Millions.\u000aTrump fired The Guy Who Was Investigating.\u2026 
+p152
+aVDeutsche Bank reaches $170 million Euribor-rigging settlement - https://t.co/CGtWGk8ZIe
+p153
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p154
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p155
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p156
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p157
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p158
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p159
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p160
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p161
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p162
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p163
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p164
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p165
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p166
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p167
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p168
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p169
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p170
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p171
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p172
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p173
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p174
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p175
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p176
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p177
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p178
+aVRT funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Ru\u2026 https://t.co/DSZfI0hL2I
+p179
+aVBank that lent $300m to Trump linked to Russian money laundering scam https://t.co/JIxejZ7uBw
+p180
+aVThen there's this....\U0001f447\u2757\ufe0f https://t.co/du4wsT1IOb
+p181
+aVRT funder "RT funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also \u2026 https://t.co/PoqVZkamPo"
+p182
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p183
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p184
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p185
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p186
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p187
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p188
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p189
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p190
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p191
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p192
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p193
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p194
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p195
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p196
+aVRT funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Ru\u2026 https://t.co/nDYQ9hnIaL
+p197
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p198
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p199
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p200
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p201
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p202
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p203
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p204
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p205
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p206
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p207
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p208
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p209
+aVDeutsche Bank ignores U.S. Trump/Russia query: Democratic staffer https://t.co/zsPuwvBGAo via @Reuters
+p210
+aV@nytimes @washingtonpost @TheLeadCNN @BostonGlobe @latimes @chicagotribune @WashTimes @NYDailyNews Big Press, we ne\u2026 https://t.co/4FyuykX3VP
+p211
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p212
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p213
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p214
+aV@CNN @MSNBC @ABCPolitics @CBSThisMorning This is why DT shouldn't be in the WH! https://t.co/16P0kqFRq9
+p215
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p216
+aVU.S. recession remote in next 12 months: Deutsche Bank https://t.co/acDVhCHFxt
+p217
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p218
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p219
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p220
+aVRT @WeLoveObama4: RT funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Ru\u2026 https\u2026
+p221
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p222
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p223
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p224
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p225
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p226
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p227
+aVCity Bank has done the same some  5 years back. #Ethiopia #Banking https://t.co/Ji6CQ0rqmY
+p228
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p229
+aV@ funder #TrumpRussia #TheResistance\u000ahttps://t.co/tZLe7GNcLN
+p230
+aV@ funder #TrumpRussia #TheResistance\u000ahttps://t.co/DEbYrSxGZf
+p231
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p232
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p233
+aV@ funder #TrumpRussia #TheResistance\u000ahttps://t.co/QPH7e8uEQg
+p234
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p235
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p236
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p237
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p238
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p239
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p240
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p241
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p242
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p243
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p244
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p245
+aVRT @nadeemmalik: @b_obermayer @f_obermaier @DeutscheBank @lukeharding1968 @JesseDrucker Do you thing Deutsche Bank would provide the\u2026 
+p246
+aVFollow the money. https://t.co/Ao7w9izXQz
+p247
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p248
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p249
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p250
+aVGotta love how 'libs' are thrilled we are now pissed off at Germany, as well as Russia. All to get Trump, when they\u2026 https://t.co/Wq7EIHJ1e5
+p251
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p252
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p253
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p254
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p255
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p256
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p257
+aVRT @funder: A bank Trump owes $300M to just ignored Congressional query in #TrumpRussia probe\u2014bank also launders Russian money.\u000ahttps://t.c\u2026
+p258
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p259
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p260
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p261
+aVRT @funder: Trump owes $300,000,000 to the bank behind a global money laundering scheme led by Russian criminals. #trumprussia https://t.co\u2026
+p262
+aVen
+p263
+aVen
+p264
+aVen
+p265
+aVen
+p266
+aVen
+p267
+aVen
+p268
+aVen
+p269
+aVen
+p270
+aVen
+p271
+aVen
+p272
+aVen
+p273
+aVen
+p274
+aVen
+p275
+aVen
+p276
+aVen
+p277
+aVen
+p278
+aVen
+p279
+aVen
+p280
+aVen
+p281
+aVen
+p282
+aVen
+p283
+aVen
+p284
+aVen
+p285
+aVen
+p286
+aVen
+p287
+aVen
+p288
+aVen
+p289
+aVen
+p290
+aVen
+p291
+aVen
+p292
+aVen
+p293
+aVen
+p294
+aVen
+p295
+aVen
+p296
+aVen
+p297
+aVen
+p298
+aVen
+p299
+aVen
+p300
+aVen
+p301
+aVen
+p302
+aVen
+p303
+aVen
+p304
+aVen
+p305
+aVen
+p306
+aVen
+p307
+aVen
+p308
+aVen
+p309
+aVen
+p310
+aVen
+p311
+aVen
+p312
+aVen
+p313
+aVen
+p314
+aVen
+p315
+aVen
+p316
+aVen
+p317
+aVen
+p318
+aVen
+p319
+aVen
+p320
+aVen
+p321
+aVen
+p322
+aVen
+p323
+aVen
+p324
+aVen
+p325
+aVen
+p326
+aVen
+p327
+aVen
+p328
+aVen
+p329
+aVen
+p330
+aVen
+p331
+aVen
+p332
+aVen
+p333
+aVen
+p334
+aVen
+p335
+aVen
+p336
+aVen
+p337
+aVen
+p338
+aVen
+p339
+aVen
+p340
+aVen
+p341
+aVen
+p342
+aVen
+p343
+aVen
+p344
+aVen
+p345
+aVen
+p346
+aVen
+p347
+aVen
+p348
+aVen
+p349
+aVen
+p350
+aVen
+p351
+aVen
+p352
+aVen
+p353
+aVen
+p354
+aVen
+p355
+aVen
+p356
+aVen
+p357
+aVen
+p358
+aVen
+p359
+aVen
+p360
+aVen
+p361
+aVen
+p362
+aVen
+p363
+aVen
+p364
+aVen
+p365
+aVen
+p366
+aVen
+p367
+aVen
+p368
+aVen
+p369
+aVen
+p370
+aVen
+p371
+aVen
+p372
+aVen
+p373
+aVen
+p374
+aVen
+p375
+aVen
+p376
+aVen
+p377
+aVen
+p378
+aVen
+p379
+aVen
+p380
+aVen
+p381
+aVen
+p382
+aVen
+p383
+aVen
+p384
+aVen
+p385
+aVen
+p386
+aVen
+p387
+aVen
+p388
+aVen
+p389
+aVen
+p390
+aVen
+p391
+aVen
+p392
+aVen
+p393
+aVen
+p394
+aVen
+p395
+aVen
+p396
+aVen
+p397
+aVen
+p398
+aVen
+p399
+aVen
+p400
+aVen
+p401
+aVen
+p402
+aVen
+p403
+aVen
+p404
+aVen
+p405
+aVen
+p406
+aVen
+p407
+aVen
+p408
+aVen
+p409
+aVen
+p410
+aVen
+p411
+aVen
+p412
+aVen
+p413
+aVen
+p414
+aVen
+p415
+aVen
+p416
+aVen
+p417
+aVen
+p418
+aVen
+p419
+aVen
+p420
+aVen
+p421
+aVen
+p422
+aVen
+p423
+aVen
+p424
+aVen
+p425
+aVen
+p426
+aVen
+p427
+aVen
+p428
+aVen
+p429
+aVen
+p430
+aVen
+p431
+aVen
+p432
+aVen
+p433
+aVen
+p434
+aVen
+p435
+aVen
+p436
+aVen
+p437
+aVen
+p438
+aVen
+p439
+aVen
+p440
+aVen
+p441
+aVen
+p442
+aNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaNaVTue Jun 13 01:58:30 +0000 2017
+p443
+aVTue Jun 13 02:00:02 +0000 2017
+p444
+aVTue Jun 13 02:00:41 +0000 2017
+p445
+aVTue Jun 13 02:02:22 +0000 2017
+p446
+aVTue Jun 13 02:05:12 +0000 2017
+p447
+aVTue Jun 13 02:06:59 +0000 2017
+p448
+aVTue Jun 13 02:10:23 +0000 2017
+p449
+aVTue Jun 13 02:11:14 +0000 2017
+p450
+aVTue Jun 13 02:12:25 +0000 2017
+p451
+aVTue Jun 13 02:12:46 +0000 2017
+p452
+aVTue Jun 13 02:13:39 +0000 2017
+p453
+aVTue Jun 13 02:13:46 +0000 2017
+p454
+aVTue Jun 13 02:14:17 +0000 2017
+p455
+aVTue Jun 13 02:14:27 +0000 2017
+p456
+aVTue Jun 13 02:15:05 +0000 2017
+p457
+aVTue Jun 13 02:15:46 +0000 2017
+p458
+aVTue Jun 13 02:16:04 +0000 2017
+p459
+aVTue Jun 13 02:16:20 +0000 2017
+p460
+aVTue Jun 13 02:18:23 +0000 2017
+p461
+aVTue Jun 13 02:20:42 +0000 2017
+p462
+aVTue Jun 13 02:22:04 +0000 2017
+p463
+aVTue Jun 13 02:22:09 +0000 2017
+p464
+aVTue Jun 13 02:22:30 +0000 2017
+p465
+aVTue Jun 13 02:23:13 +0000 2017
+p466
+aVTue Jun 13 02:26:41 +0000 2017
+p467
+aVTue Jun 13 02:27:47 +0000 2017
+p468
+aVTue Jun 13 02:30:15 +0000 2017
+p469
+aVTue Jun 13 02:31:04 +0000 2017
+p470
+aVTue Jun 13 02:31:56 +0000 2017
+p471
+aVTue Jun 13 02:33:19 +0000 2017
+p472
+aVTue Jun 13 02:41:13 +0000 2017
+p473
+aVTue Jun 13 02:42:00 +0000 2017
+p474
+aVTue Jun 13 02:43:06 +0000 2017
+p475
+aVTue Jun 13 02:43:50 +0000 2017
+p476
+aVTue Jun 13 02:44:14 +0000 2017
+p477
+aVTue Jun 13 02:45:42 +0000 2017
+p478
+aVTue Jun 13 02:45:56 +0000 2017
+p479
+aVTue Jun 13 02:46:01 +0000 2017
+p480
+aVTue Jun 13 02:46:47 +0000 2017
+p481
+aVTue Jun 13 02:47:59 +0000 2017
+p482
+aVTue Jun 13 02:49:46 +0000 2017
+p483
+aVTue Jun 13 02:50:04 +0000 2017
+p484
+aVTue Jun 13 02:51:25 +0000 2017
+p485
+aVTue Jun 13 02:51:26 +0000 2017
+p486
+aVTue Jun 13 02:52:22 +0000 2017
+p487
+aVTue Jun 13 02:52:23 +0000 2017
+p488
+aVTue Jun 13 02:53:11 +0000 2017
+p489
+aVTue Jun 13 02:53:24 +0000 2017
+p490
+aVTue Jun 13 02:56:30 +0000 2017
+p491
+aVTue Jun 13 02:57:14 +0000 2017
+p492
+aVTue Jun 13 03:01:09 +0000 2017
+p493
+aVTue Jun 13 03:03:04 +0000 2017
+p494
+aVTue Jun 13 03:03:10 +0000 2017
+p495
+aVTue Jun 13 03:03:43 +0000 2017
+p496
+aVTue Jun 13 03:04:36 +0000 2017
+p497
+aVTue Jun 13 03:05:58 +0000 2017
+p498
+aVTue Jun 13 03:06:14 +0000 2017
+p499
+aVTue Jun 13 03:06:19 +0000 2017
+p500
+aVTue Jun 13 03:10:22 +0000 2017
+p501
+aVTue Jun 13 03:10:33 +0000 2017
+p502
+aVTue Jun 13 03:11:39 +0000 2017
+p503
+aVTue Jun 13 03:13:51 +0000 2017
+p504
+aVTue Jun 13 03:14:05 +0000 2017
+p505
+aVTue Jun 13 03:14:57 +0000 2017
+p506
+aVTue Jun 13 03:20:29 +0000 2017
+p507
+aVTue Jun 13 03:23:35 +0000 2017
+p508
+aVTue Jun 13 03:25:00 +0000 2017
+p509
+aVTue Jun 13 03:25:01 +0000 2017
+p510
+aVTue Jun 13 03:25:44 +0000 2017
+p511
+aVTue Jun 13 03:27:08 +0000 2017
+p512
+aVTue Jun 13 03:27:37 +0000 2017
+p513
+aVTue Jun 13 03:28:10 +0000 2017
+p514
+aVTue Jun 13 03:28:27 +0000 2017
+p515
+aVTue Jun 13 03:28:28 +0000 2017
+p516
+aVTue Jun 13 03:28:32 +0000 2017
+p517
+aVTue Jun 13 03:28:33 +0000 2017
+p518
+aVTue Jun 13 03:28:36 +0000 2017
+p519
+aVTue Jun 13 03:28:36 +0000 2017
+p520
+aVTue Jun 13 03:28:37 +0000 2017
+p521
+aVTue Jun 13 03:28:40 +0000 2017
+p522
+aVTue Jun 13 03:28:43 +0000 2017
+p523
+aVTue Jun 13 03:28:43 +0000 2017
+p524
+aVTue Jun 13 03:28:44 +0000 2017
+p525
+aVTue Jun 13 03:28:47 +0000 2017
+p526
+aVTue Jun 13 03:28:52 +0000 2017
+p527
+aVTue Jun 13 03:28:52 +0000 2017
+p528
+aVTue Jun 13 03:28:57 +0000 2017
+p529
+aVTue Jun 13 03:28:59 +0000 2017
+p530
+aVTue Jun 13 03:29:02 +0000 2017
+p531
+aVTue Jun 13 03:29:03 +0000 2017
+p532
+aVTue Jun 13 03:29:10 +0000 2017
+p533
+aVTue Jun 13 03:29:11 +0000 2017
+p534
+aVTue Jun 13 03:29:13 +0000 2017
+p535
+aVTue Jun 13 03:29:17 +0000 2017
+p536
+aVTue Jun 13 03:29:18 +0000 2017
+p537
+aVTue Jun 13 03:29:20 +0000 2017
+p538
+aVTue Jun 13 03:29:24 +0000 2017
+p539
+aVTue Jun 13 03:29:28 +0000 2017
+p540
+aVTue Jun 13 03:29:28 +0000 2017
+p541
+aVTue Jun 13 03:29:29 +0000 2017
+p542
+aVTue Jun 13 03:29:41 +0000 2017
+p543
+aVTue Jun 13 03:29:43 +0000 2017
+p544
+aVTue Jun 13 03:29:44 +0000 2017
+p545
+aVTue Jun 13 03:29:45 +0000 2017
+p546
+aVTue Jun 13 03:29:45 +0000 2017
+p547
+aVTue Jun 13 03:29:50 +0000 2017
+p548
+aVTue Jun 13 03:29:56 +0000 2017
+p549
+aVTue Jun 13 03:30:09 +0000 2017
+p550
+aVTue Jun 13 03:30:17 +0000 2017
+p551
+aVTue Jun 13 03:30:20 +0000 2017
+p552
+aVTue Jun 13 03:30:24 +0000 2017
+p553
+aVTue Jun 13 03:30:25 +0000 2017
+p554
+aVTue Jun 13 03:30:26 +0000 2017
+p555
+aVTue Jun 13 03:30:29 +0000 2017
+p556
+aVTue Jun 13 03:30:33 +0000 2017
+p557
+aVTue Jun 13 03:30:33 +0000 2017
+p558
+aVTue Jun 13 03:30:35 +0000 2017
+p559
+aVTue Jun 13 03:30:35 +0000 2017
+p560
+aVTue Jun 13 03:30:40 +0000 2017
+p561
+aVTue Jun 13 03:30:40 +0000 2017
+p562
+aVTue Jun 13 03:30:42 +0000 2017
+p563
+aVTue Jun 13 03:30:43 +0000 2017
+p564
+aVTue Jun 13 03:30:44 +0000 2017
+p565
+aVTue Jun 13 03:30:52 +0000 2017
+p566
+aVTue Jun 13 03:30:55 +0000 2017
+p567
+aVTue Jun 13 03:30:55 +0000 2017
+p568
+aVTue Jun 13 03:31:05 +0000 2017
+p569
+aVTue Jun 13 03:31:06 +0000 2017
+p570
+aVTue Jun 13 03:31:07 +0000 2017
+p571
+aVTue Jun 13 03:31:14 +0000 2017
+p572
+aVTue Jun 13 03:31:17 +0000 2017
+p573
+aVTue Jun 13 03:31:19 +0000 2017
+p574
+aVTue Jun 13 03:31:28 +0000 2017
+p575
+aVTue Jun 13 03:31:34 +0000 2017
+p576
+aVTue Jun 13 03:31:35 +0000 2017
+p577
+aVTue Jun 13 03:31:35 +0000 2017
+p578
+aVTue Jun 13 03:31:40 +0000 2017
+p579
+aVTue Jun 13 03:31:41 +0000 2017
+p580
+aVTue Jun 13 03:31:41 +0000 2017
+p581
+aVTue Jun 13 03:31:42 +0000 2017
+p582
+aVTue Jun 13 03:31:49 +0000 2017
+p583
+aVTue Jun 13 03:31:52 +0000 2017
+p584
+aVTue Jun 13 03:31:57 +0000 2017
+p585
+aVTue Jun 13 03:31:59 +0000 2017
+p586
+aVTue Jun 13 03:32:03 +0000 2017
+p587
+aVTue Jun 13 03:32:06 +0000 2017
+p588
+aVTue Jun 13 03:32:10 +0000 2017
+p589
+aVTue Jun 13 03:32:11 +0000 2017
+p590
+aVTue Jun 13 03:32:12 +0000 2017
+p591
+aVTue Jun 13 03:32:13 +0000 2017
+p592
+aVTue Jun 13 03:32:13 +0000 2017
+p593
+aVTue Jun 13 03:32:19 +0000 2017
+p594
+aVTue Jun 13 03:32:22 +0000 2017
+p595
+aVTue Jun 13 03:32:22 +0000 2017
+p596
+aVTue Jun 13 03:32:25 +0000 2017
+p597
+aVTue Jun 13 03:32:26 +0000 2017
+p598
+aVTue Jun 13 03:32:31 +0000 2017
+p599
+aVTue Jun 13 03:32:34 +0000 2017
+p600
+aVTue Jun 13 03:32:36 +0000 2017
+p601
+aVTue Jun 13 03:32:37 +0000 2017
+p602
+aVTue Jun 13 03:32:45 +0000 2017
+p603
+aVTue Jun 13 03:32:52 +0000 2017
+p604
+aVTue Jun 13 03:33:04 +0000 2017
+p605
+aVTue Jun 13 03:33:08 +0000 2017
+p606
+aVTue Jun 13 03:33:16 +0000 2017
+p607
+aVTue Jun 13 03:33:22 +0000 2017
+p608
+aVTue Jun 13 03:33:25 +0000 2017
+p609
+aVTue Jun 13 03:33:31 +0000 2017
+p610
+aVTue Jun 13 03:33:41 +0000 2017
+p611
+aVTue Jun 13 03:33:43 +0000 2017
+p612
+aVTue Jun 13 03:33:47 +0000 2017
+p613
+aVTue Jun 13 03:33:52 +0000 2017
+p614
+aVTue Jun 13 03:33:54 +0000 2017
+p615
+aVTue Jun 13 03:34:02 +0000 2017
+p616
+aVTue Jun 13 03:34:09 +0000 2017
+p617
+aVTue Jun 13 03:34:20 +0000 2017
+p618
+aVTue Jun 13 03:34:31 +0000 2017
+p619
+aVTue Jun 13 03:34:34 +0000 2017
+p620
+aVTue Jun 13 03:34:42 +0000 2017
+p621
+aVTue Jun 13 03:34:50 +0000 2017
+p622
+atp623
+ba(lp624
+g15
+(g16
+(dp625
+g18
+g19
+(g20
+(I0
+tp626
+g22
+tp627
+Rp628
+(I1
+(I2
+tp629
+g29
+I00
+(lp630
+g38
+ag40
+atp631
+bsg42
+Nstp632
+Rp633
+ag15
+(g16
+(dp634
+g18
+g19
+(g20
+(I0
+tp635
+g22
+tp636
+Rp637
+(I1
+(I2
+tp638
+g29
+I00
+(lp639
+g37
+ag39
+atp640
+bsg42
+Nstp641
+Rp642
+ag15
+(g16
+(dp643
+g18
+g19
+(g20
+(I0
+tp644
+g22
+tp645
+Rp646
+(I1
+(I4
+tp647
+g29
+I00
+(lp648
+g33
+ag34
+ag35
+ag36
+atp649
+bsg42
+Nstp650
+Rp651
+a(dp652
+S'0.14.1'
+p653
+(dp654
+S'axes'
+p655
+g14
+sS'blocks'
+p656
+(lp657
+(dp658
+S'mgr_locs'
+p659
+c__builtin__
+slice
+p660
+(I5
+I9
+I2
+tp661
+Rp662
+sS'values'
+p663
+g63
+sa(dp664
+g659
+g660
+(I4
+I8
+I2
+tp665
+Rp666
+sg663
+g74
+sa(dp667
+g659
+g660
+(I0
+I4
+I1
+tp668
+Rp669
+sg663
+g80
+sasstp670
+bsb.

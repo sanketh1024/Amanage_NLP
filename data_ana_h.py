@@ -9,15 +9,17 @@ Created on Sat Jun  3 08:58:14 2017
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
+
+import tweepy
 import datetime
 
 
 #remove this before final draft
 #Currently using Sanketh's account
-access_token = "41601603-imMldtIyjNOV4cQs1sVc3t5rpYILR7Ho4BqNkMc8Z"
-access_token_secret = "hVBsXq5jjW6jYgHvJELOXLiADTVLLtjLICu51caawjccj"
-consumer_key = "IJVQgImqc6hV6w1OLthcaOuMI"
-consumer_secret = "s1Zd57mi9OKoA09OWKfaJcahYrcRtxggBpJONfSP2VC9E4FbV6"
+access_token = "872339058227384321-n5XtDqYSFctW6zwbCxFwmCeQWLuXRRP"
+access_token_secret = "1lCeWKmXb54hdh3AM22teSmpAxkTjK77dJ0M5mIhaOkCb"
+consumer_key = "kY60GVaF6EsFkKKAxmGJmZFhw"
+consumer_secret = "cRpZHZrzVxPhAGak17uHKIQpOXYq0wxiczq7beebmxiN2YTzs7"
 
 
 
@@ -34,7 +36,8 @@ class StdOutListener(StreamListener):
         return False
 
     def on_error(self, status):
-        print status
+        pass
+        #print status
 
 auth = OAuthHandler(consumer_key, consumer_secret)  
 auth.set_access_token(access_token, access_token_secret) 
@@ -43,14 +46,20 @@ auth.set_access_token(access_token, access_token_secret)
 if __name__ == '__main__':
 
     #This handles Twitter authetification and the connection to Twitter Streaming API
-    l = StdOutListener(2000)
+    l = StdOutListener(200)
     print "ok"
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
 
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
-    stream.filter(track=['Apple', 'apple'])
+    while True:
+        try:
+            stream.filter(track=['Deutsche Bank'])
+            break
+        except tweepy.TweepError:
+            pass
+
     
 # Below code downloads data for the start and end dates specified
 #def date_range(start,end):
