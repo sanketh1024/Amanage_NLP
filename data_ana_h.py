@@ -12,7 +12,7 @@ from tweepy import Stream
 
 import tweepy
 import datetime
-
+import sys
 
 #remove this before final draft
 #Currently using Sanketh's account
@@ -21,17 +21,17 @@ access_token_secret = "1lCeWKmXb54hdh3AM22teSmpAxkTjK77dJ0M5mIhaOkCb"
 consumer_key = "kY60GVaF6EsFkKKAxmGJmZFhw"
 consumer_secret = "cRpZHZrzVxPhAGak17uHKIQpOXYq0wxiczq7beebmxiN2YTzs7"
 
-
-
+print sys.argv
 class StdOutListener(StreamListener):
     def __init__(self, lim = 20):
         self.num_tweets = 0
         self.lim = lim
-
+        self.file = open(str(sys.argv[2]), 'w')
     def on_data(self, data):
         while self.num_tweets < self.lim:
-            print data
+            self.file.write(data)
             self.num_tweets += 1
+            print self.num_tweets
             return True
         return False
 
@@ -44,9 +44,9 @@ auth.set_access_token(access_token, access_token_secret)
 #Below code downloads real time data indefinitely. Need a way to control it
      
 if __name__ == '__main__':
-
     #This handles Twitter authetification and the connection to Twitter Streaming API
-    l = StdOutListener(200)
+    print sys.argv[1]
+    l = StdOutListener(int(sys.argv[1]))
     print "ok"
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
     while True:
         try:
-            stream.filter(track=['Deutsche Bank'])
+            stream.filter(track=[str(sys.argv[3])])
             break
         except tweepy.TweepError:
             pass
