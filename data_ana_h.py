@@ -15,7 +15,7 @@ import datetime
 import sys
 
 #remove this before final draft
-#Currently using Sanketh's account
+#Currently using iGenie's account
 access_token = "872339058227384321-n5XtDqYSFctW6zwbCxFwmCeQWLuXRRP"
 access_token_secret = "1lCeWKmXb54hdh3AM22teSmpAxkTjK77dJ0M5mIhaOkCb"
 consumer_key = "kY60GVaF6EsFkKKAxmGJmZFhw"
