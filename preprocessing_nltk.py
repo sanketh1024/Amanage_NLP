@@ -43,7 +43,7 @@ def scoring_vader(tweet):
     l = []
     for k in sorted(ss):
             l.append('{0}: {1}, '.format(k, ss[k]))
-    return l
+    return l, ss['compound']
 def scoring_g2g(tweet):
     analysis = TextBlob(tweet)
     return analysis.sentiment.polarity
@@ -60,21 +60,24 @@ df['preprocessed_tweet'] = df['Text'].apply(clean_tweet)
 df['NER'] = df['preprocessed_tweet'].apply(ner)
 df['tweet_score_vader'] = df['preprocessed_tweet'].apply(scoring_vader)
 df['tweet_score_g2g'] = df['preprocessed_tweet'].apply(scoring_g2g)
-print df
+#print df
 df.to_csv('scoring.csv', encoding = 'utf-8')
-for sentence in sent:
-    print(sentence)
-    ss = sid.polarity_scores(sentence)
-    for k in sorted(ss):
-        print ('{0}: {1}, '.format(k, ss[k]))
-    print()
+print "Total score vader", sum(score[1] for score in df['tweet_score_vader'])
+print "Total score g2g", df['tweet_score_g2g'].sum()
+
+#for sentence in sent:
+#    print(sentence)
+#    ss = sid.polarity_scores(sentence)
+#    for k in sorted(ss):
+#        print ('{0}: {1}, '.format(k, ss[k]))
+#    print()
     
 #second tokanizer
 
-from nltk.tokenize import TweetTokenizer
-
-tze = TweetTokenizer(strip_handles =True, reduce_len = True)
-l = []
-for s in sent:
-    l.append(tze.tokenize(s))
-print l
+#from nltk.tokenize import TweetTokenizer
+#
+#tze = TweetTokenizer(strip_handles =True, reduce_len = True)
+#l = []
+#for s in sent:
+#    l.append(tze.tokenize(s))
+#print l
