@@ -61,7 +61,12 @@ df['NER'] = df['preprocessed_tweet'].apply(ner)
 df['tweet_score_vader'] = df['preprocessed_tweet'].apply(scoring_vader)
 df['tweet_score_g2g'] = df['preprocessed_tweet'].apply(scoring_g2g)
 #print df
-df.to_csv('scoring.csv', encoding = 'utf-8')
+print len(df)
+df = df.drop_duplicates(subset = ['Text'])
+print len(df)
+df1 = df['preprocessed_tweet'].apply(lambda x: x.replace('RT ', ''))
+df1 = df1.drop_duplicates().reset_index(drop = True)
+df1.to_csv('scoring.csv', encoding = 'utf-8')
 print "Total score vader", sum(score[1] for score in df['tweet_score_vader'])
 print "Total score g2g", df['tweet_score_g2g'].sum()
 
