@@ -54,6 +54,12 @@ def clean_tweet(tweet):
         using simple regex statements.
         '''
         return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
+
+def deep_filter(tweet, phrase):
+    if str(any(phrase)) in tweet.lower():
+        return tweet
+    else:
+        return None
 df = pickle.load(open('test', 'rb'))
 df['preprocessed_tweet'] = df['Text'].apply(clean_tweet)
 
@@ -62,13 +68,16 @@ df['tweet_score_vader'] = df['preprocessed_tweet'].apply(scoring_vader)
 df['tweet_score_g2g'] = df['preprocessed_tweet'].apply(scoring_g2g)
 #print df
 print len(df)
-df = df.drop_duplicates(subset = ['Text'])
 print len(df)
-df1 = df['preprocessed_tweet'].apply(lambda x: x.replace('RT ', ''))
-df1 = df1.drop_duplicates().reset_index(drop = True)
+df = df['preprocessed_tweet'].apply(lambda x: x.replace('RT ', ''))
+#df1 = df.drop_duplicates(subset = ['preprocessed_tweet'])
+df1 = df.drop_duplicates().reset_index(drop = True)
+print len(df1)
+df1 = df1[df1.apply(deep_filter, args = (['apple', 'ishares'],)).notnull()]
+print len(df1)
 df1.to_csv('scoring.csv', encoding = 'utf-8')
-print "Total score vader", sum(score[1] for score in df['tweet_score_vader'])
-print "Total score g2g", df['tweet_score_g2g'].sum()
+#print "Total score vader", sum(score[1] for score in df['tweet_score_vader'])
+#print "Total score g2g", df['tweet_score_g2g'].sum()
 
 #for sentence in sent:
 #    print(sentence)

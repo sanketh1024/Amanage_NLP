@@ -45,7 +45,7 @@ auth.set_access_token(access_token, access_token_secret)
      
 if __name__ == '__main__':
     #This handles Twitter authetification and the connection to Twitter Streaming API
-    print sys.argv[1]
+    print sys.argv[2]
     l = StdOutListener(int(sys.argv[1]))
     print "ok"
     auth = OAuthHandler(consumer_key, consumer_secret)
@@ -55,7 +55,7 @@ if __name__ == '__main__':
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
     while True:
         try:
-            stream.filter(track=[str(sys.argv[3])])
+            stream.filter(track=sys.argv[2])
             break
         except tweepy.TweepError:
             pass
