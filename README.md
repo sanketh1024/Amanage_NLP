@@ -1,6 +1,6 @@
 # Amanage_NLP
 
-As of 12th June, How to run the files!
+As of 15th July, How to run the files!
 
 1)run the file data_ana_h.py as python data_ana_h.py <no.of tweets> <filename.txt> <filter phrase>
 2)example: python data_ana_h.py 50 'filename.txt' 'Apple'
