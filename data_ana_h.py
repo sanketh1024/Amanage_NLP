@@ -55,7 +55,7 @@ if __name__ == '__main__':
     #This line filter Twitter Streams to capture data by the keywords: 'python', 'javascript', 'ruby'
     while True:
         try:
-            stream.filter(track=sys.argv[2])
+            stream.filter(track=sys.argv[3])
             break
         except tweepy.TweepError:
             pass
@@ -84,9 +84,4 @@ if __name__ == '__main__':
 
 #stream = Stream(auth, TweetListener(), secure=True, )
 #stream.filter(track=[u'Apple', u'apple'])
-    
-
-#IJVQgImqc6hV6w1OLthcaOuMI    API key
-#s1Zd57mi9OKoA09OWKfaJcahYrcRtxggBpJONfSP2VC9E4FbV6    API secret
-#41601603-imMldtIyjNOV4cQs1sVc3t5rpYILR7Ho4BqNkMc8Z   access token
-#hVBsXq5jjW6jYgHvJELOXLiADTVLLtjLICu51caawjccj     access token secret
+ 
