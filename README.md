@@ -1,5 +1,7 @@
 # Amanage_NLP
 
+This is a twitter tweet extractor and sentiment scorer
+
 As of 15th July, How to run the files!
 
 1)run the file data_ana_h.py as python data_ana_h.py <no.of tweets> <filename.txt> <filter phrase>
